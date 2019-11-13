@@ -1,0 +1,659 @@
+body{
+    margin: 0px;
+    padding:0px;
+}
+.workshop{
+    display: flex;
+    flex-direction: column;
+}
+.nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.logo{
+    width: 23%;
+    height: 45%;
+    background-image: url(images/logo.png);
+    background-size: 100% 100%;
+}
+.nav ul{
+    display: flex;
+    width: 70%;
+    height: 45;
+    list-style: none;
+}
+.nav ul li{
+    font-size: 25px;
+    margin-left: 5%;
+}
+.nav ul li i{
+    padding: 8px;
+    background-color:#51cdf0;
+    transition: 2s;
+}
+.nav ul li i:hover{
+    background-color:#2ea7c9; 
+    border-radius: 20px;
+    transition: 2s;
+}
+.nav2{
+    width: 100%;
+    height: 60px;
+    background-color:#51cdf0;
+    justify-content: space-between;
+    align-items: center;
+    
+    display: flex;
+    
+}
+.nav2 ul{
+    display:flex;
+    width:70%;
+    list-style: none;
+    justify-content: space-around;
+    height: 60px;
+}
+
+.nav2 ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    display: block;
+}
+
+.nav2 ul li {
+    padding: 18px 18px;
+    font-size: 15px;
+}
+.nav2 ul li:hover {
+    background-color: teal;
+    padding: 18px 18px;
+    font-size: 15px;
+    box-shadow: 5px 5px white;
+}
+
+.search{
+    width: 20%;
+    height: 40px;
+    background-color:white;
+    margin-left: 50px;
+    border-radius: 20px;
+    position: relative;
+    padding-left: 8px;
+
+}
+.search p{
+    color: grey;
+
+}
+.search p .fas{
+    position: absolute;
+    right:18px;
+}
+.section{
+    width: 100%;
+    height: 690px;
+    background-image: url(images/slider-bg.png) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.section h1{
+    position: absolute;
+    animation: text 2s steps(33) infinite alternate;
+    overflow:hidden;
+    white-space: nowrap;
+}
+@keyframes text{
+    from{
+        width: 0ch;
+    }
+    to{
+        width: 33ch;
+    }
+}
+.icon{
+    width: 130px;
+    height: 130px;
+    padding: 15px;
+    border:2px solid teal;
+    background-color: white;
+    border-radius: 150px;
+   margin-left: 45%;
+   margin-top: 4%;
+}
+.section h1{
+    margin-left: 28%;
+}
+.parts{
+    width: 95%;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    margin-top: 180px;
+}
+.part1{
+    width: 33.5%;
+    height: 300px;
+    background-color: #74b9ff;
+    text-align: center;
+    color: white;
+    line-height: 2px;
+}
+.phone{
+    width:80px;
+    height: 80px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+.add{
+    height: 370px;
+    background-color: #0984e3;
+}
+.dotted{
+    width:55%;
+    height: 20px;
+    border-bottom: 1px dotted white;
+    margin-top: 27px;
+    margin-left: 80px;
+}
+.section-2{
+    width:90%;
+    height:520px;
+    display: flex;
+    margin-top: 170px;
+    flex-direction: column;
+    border-bottom: 1px dotted grey;
+    margin-left: 5%;
+}
+.section2-img{
+width:80px;
+    height: 80px;
+    margin-left: 45%;
+    margin-top: 5px;    
+}
+.section-2 h1{
+    margin-left: 38%;
+}
+.line{
+    width: 4%;
+    height: 1%;
+    background-color: teal;
+    margin-left:47% ;
+    margin-top: -10px;
+}
+.section-2-part{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    margin-top: 20px;
+}
+.section-2-part1{
+    width: 50%;
+    height:100%;
+    line-height: 6px;
+}
+.section-2-part1 h3{
+    color: #0984e3;
+}
+.section-2-part1 p{
+    line-height:19px ;
+}
+.section-2 button{
+    width:20%;
+    height:15%;
+    border-radius: 200px;
+    padding-left: 5px;
+    background-color:linear-gradient (to right,teal,#0984e3);
+    color: white;
+}
+.section-2-part2{
+    width: 45%;
+    height:100%;
+   background-image: url(images/about_03.jpg);
+   background-size:100% 100%;
+}
+.section-3{
+    width:100%;
+    height: 260px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    color: white;
+    padding-bottom: 10px;
+}
+.section-3-part{
+    width:20%;
+    height: 200px;
+    background-color: thistle;
+    margin-top: 20px;    
+    background-color:  #0984e3;
+    margin-left: 4%;
+}
+.img3{
+    width:100%;
+    height:80%;
+}
+.section-3 h4{
+    margin:0.1px;
+}
+.section4{
+    width:100%;
+    height: 580px;
+    background-image: url(images/service-bg.png);
+    display: flex;
+    flex-direction: row;
+    background-size:100% 100%;
+}
+.section-4-part1{
+    width:72%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    line-height: 15px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.section-4-div{
+     width:26%;
+     height:44%;
+     display: flex;
+     flex-direction: column;
+    color: white;
+    margin: auto;
+}
+.section4-img{
+    width:30%;
+    height: 30%;
+    margin-left:30% ;
+    margin-top: 9%;
+}
+.section-4-div h3{
+    margin-left: 9%;
+}
+.form{
+    width: 25%;
+    height: 90%;
+    background-color: white;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.book{
+    width: 90%;
+    height: 40px;
+    background-color: teal;
+    color: white;
+    margin-left: 5%;
+    margin-top: 10px;
+}
+.book h4{
+    font-size: 15px;
+    margin-left: 25%;
+}
+.form .name{
+    width: 85%;
+    height: 40px;
+    border: 1px solid grey;
+    margin-left: 5%;
+    margin-top:20px;
+    padding: 5px;
+    color: grey;
+}
+.form .name2{
+    width: 85%;
+    height: 40px;
+    border: 1px solid grey;
+    margin-left: 5%;
+    margin-top:25px;
+    padding: 5px;
+    color: grey;
+}
+.form .your{
+    width: 85%;
+    height: 80px;
+    border: 1px solid grey;
+    margin-left: 5%;
+    margin-top:25px;
+    padding: 5px;
+    color: grey;
+}
+.form button{
+    width:80px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: teal;
+    border: 1px solid teal;
+    color: white;
+    margin-left: 110px;
+    margin-top: 10px;
+}
+.form .date{
+    width: 88%;
+    height: 40px;
+    margin-left: 5%;
+    margin-top:20px;
+    display: flex;
+    flex-direction: row;
+}
+.form .date1{
+     width:48%;
+     height: 100%;
+     border: 1px solid grey;
+     color: grey;
+     padding: 5px;
+}
+.form .date2{
+    width:48%;
+    height: 100%;
+    border: 1px solid grey;
+    color: grey;
+    margin-left: 3%;
+    padding: 5px;
+}
+.section5{
+    width: 100%;
+    height: 1000px;
+    margin-top: 50px;
+}
+.section5 h1{
+    margin-left: 38%;
+}
+.section5pic{
+    width: 100%;
+    height: 790px;
+    display: flex;
+    margin-top: 35px;
+    flex-direction: row;
+}
+.section5-part{
+    width: 25%;
+    height: 555px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    color: grey;
+}
+.doctor{
+    width:100%;
+    height: 70%;
+}
+.section5-part button{
+    width:50%;
+    height: 40px;
+   background-color: teal;
+   border: 1px solid teal;
+   color: white;
+   margin-left: 20%;
+   margin-top: -9px;
+}
+.seection5-part button h3{
+    padding-bottom: 15px;
+}
+.fab{
+    padding:8px;
+    background-color: teal;
+    color: white;
+    margin-top: -1px;
+}
+.section6{
+    width: 100%;
+    height: 580px;
+    background-image: url(images/price-bg.png);
+    background-size: 100% 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+   
+}
+.section6-part{
+    width: 27%;
+    height: 60%;
+    background-color: white;
+    margin-top: 7%;
+    line-height: 12px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+}
+.more{
+    height: 80%;
+    margin-top: 2%;
+}
+.para{
+    width: 98%;
+    height:17%;
+    margin-left: 1%;
+    text-align: center;
+    color: grey;
+    border-bottom: 1px solid grey;
+}
+.para p{
+    margin-top: 20px;
+}
+.host{
+    width: 98%;
+    height:20%;
+    background-color: teal;
+    margin-left: 1%;
+
+}
+.host h2{
+    font-size: 30px;
+    margin-left: 15%;
+    color: white;
+}
+.host h5{
+    font-size: 17px;
+    margin-left: 32%;
+    color: white;
+}
+.section6-part h1{
+    margin-left: 16%;
+}
+.section6-part h4{
+    color: grey;
+    margin-left: 29%;
+}
+.section6 .section6-part .yes{
+        width: 80%;
+        height: 50px;
+        background-color: yellow;
+        margin-left: 9%;
+}
+.section6 .section6-part ul {
+     list-style: none;
+}
+.section6 .section6-part ul li {
+     padding: 5px;
+}
+.section6 .section6-part ul li i {
+    color: grey;
+}
+.section6 .section6-part ul .fas{
+    margin-right: 30px;
+    font-size: 20px;  
+}
+.section6 .section6-part span{
+    color: grey;
+}
+.section6 .section6-part .hr{
+        width:80%;
+        height:80px;
+        border-top:1px solid grey;
+        margin: auto;
+}
+.section6 .section6-part .hr button{
+    width:50%;
+    height:40px;
+    border: 1px solid grey;
+    border-radius: 20px;
+    margin-top: 17px;
+    margin-left: 22%;
+}
+.btn{
+    background-color: teal;
+}
+.section7{
+    width: 100%;
+    height: 800px;
+    background-image: url(images/bg-testimonial.png);
+    margin-top: 60px;
+    background-size: 100% 100%; 
+}
+.section7-inner{
+    width:100%;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.sub{
+    width: 40%;
+    height: 250px;
+    margin-left: 5%;
+}
+.section7-part{
+    width: 100%;
+    height: 50%;
+    border: 1px solid grey;
+    background-color: white;
+    text-align: center;
+}
+.img7{
+    width: 50%;
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+}
+.section7 h1{
+    margin-left: 42%;
+}
+.line7{
+    width: 4%;
+    height: 1%;
+    background-color: teal;
+    margin-left:46.5% ;
+    margin-top: -10px;
+}
+.section7 h6{
+    color: teal;
+    font-size: 20px;
+}
+.section8{
+    width: 100%;
+    height: 700px;
+}
+.section8 h1{
+    margin-left: 42%;
+}
+.section8-map{
+    width: 100%;
+    height: 400px;
+    background-image: url(images/download\ \(1\).jpg);
+    margin-top: 100px;
+}
+.touch{
+    width:40%;
+    height: 100%;
+    background-color: black;
+    opacity: .8;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.section8 .section8-map .touch .name{
+    width:40%;
+    height: 30px;
+    color: white;
+    font-size: 15px;
+    border-bottom: 1px solid grey;
+    margin-left: 5%;
+
+}
+.message{
+    width:86%;
+
+    height: 90px;
+    border-bottom: 1px solid grey;
+    margin-left: 5%;
+    color: white;
+}
+.section8 button{
+    color: white;
+    background-color: teal;
+    border-radius: 40px;
+    width: 150px;
+    height: 60px;
+    border: 1px solid teal;
+    margin-left: 25%;
+}
+.space{
+    width:100%;
+    height:20px;
+}
+.footer{
+    width: 100%;
+    height: 280px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.footer1{
+    width:30%;
+    height: 250px;
+    margin-left: 3%;
+}
+.field{
+    width:80%;
+    height: 40px;
+    border: 1px solid grey;
+}
+.field p{
+    margin-left: 5px;
+}
+.field2{
+    width: 20%;
+    height: 100%;
+    background-image: teal;
+}
+.footer-logo{
+    width: 230px;
+    height: 150px;
+    margin-left: 70px;
+}
+.footer1 ul{
+    list-style: none;
+}
+.footer1 h5{
+    font-size: 20px;
+}
+.footer1 ul li{
+margin-top: 10px;
+}
+
+.footer1 h2{
+    font: 70px;
+    color: black;
+    margin-left: 20px;
+}
+.last{
+    width: 100%;
+    height: 50px;
+    background-color: cornflowerblue;
+    text-align: center;
+    color: white;
+}
